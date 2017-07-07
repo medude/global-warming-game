@@ -1,0 +1,41 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#content {
+	color: #22bf32;
+	font-family: "VT323", monospace;
+	width: 90%;
+	height: 90%;
+}
+
+header {
+	height: 15%;
+}
+
+#console {
+	display: inline-block;
+	width: 100%;
+	height: 85%;
+}
+
+h1 {
+	font-weight: 400;
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+span {
+	display: block;
+}
